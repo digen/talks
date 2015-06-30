@@ -1,0 +1,11 @@
+default vesamenu.c32
+#default menu.c32
+#prompt 0
+#timeout 300
+
+MENU TITLE Testing and Hacking Anaconda
+
+LABEL Fedora 22
+        MENU LABEL Fedora
+        KERNEL fedora22/vmlinuz
+        append ksdevice=enp0s3 lang=us keymap=us ip=dhcp  vga=normal initrd=fedora22/initrd.img ramdisk_size=32768 method=ftp://192.168.59.101/fedora22 ks=ftp://192.168.59.101/fedora22/anaconda-ks.cfg

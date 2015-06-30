@@ -1,0 +1,114 @@
+\documentclass[10pt]{beamer}
+
+\usetheme{m}
+
+\usepackage{booktabs}
+\usepackage[scale=2]{ccicons}
+
+\usepackage{pgfplots}
+\usepgfplotslibrary{dateplot}
+
+
+\title{Testing and hacking Anaconda}
+\subtitle{}
+\date{\today}
+\author{Swapneel Patnekar | @digen\_ | swapneel@brainattic.in}
+% \institute{Institute or miscellaneous information}
+% \titlegraphic{\hfill\includegraphics[height=1.5cm]{logo/logo}}
+
+\begin{document}
+
+\maketitle
+
+
+\begin{frame}
+  \frametitle{Table of Contents}
+  \setbeamertemplate{section in toc}[sections numbered]
+  \tableofcontents[hideallsubsections]
+\end{frame}
+
+\section{Anaconda}
+
+\begin{frame}[fragile]
+  \frametitle{Anaconda}
+
+  \emph{Anaconda} is the installation program used by Fedora, Redhat Enterprise Linux and some other distributions.
+
+  \begin{itemize}
+    \item Supports various local and remote sources such as CD's, DVD's 
+    \item Images stored on the hard disk
+    \item NFS, HTTP, FTP 
+  \end{itemize}
+\end{frame}
+
+
+\section{TFTP}
+\begin{frame}[fragile]
+  \frametitle{TFTP}
+      \begin{verbatim}Trivial File Transfer Protocol (TFTP). \end{verbatim}
+
+
+\end{frame}
+
+\section{PXE}
+\begin{frame}[fragile]
+  \frametitle{PXE}
+      \begin{verbatim}Pre-exection boot. i.e Boot from the network \end{verbatim}
+\end{frame}
+
+
+\section{Prerequisites}
+\begin{frame}[fragile]
+\begin{itemize}
+\item VirtualBox
+\item VirtualBox Extension Pack
+\item  Fedora 22 ISO image
+\item  Internet Connection
+\item  Time and Patience :-) 
+\end{itemize}
+\end{frame}
+
+
+\plain{Questions?}
+
+
+
+\section{References \& Credits}
+
+\begin{frame}{References}
+\begin{center}\url{https://fedoraproject.org/wiki/Anaconda}\end{center}
+\begin{center}\url{https://github.com/rhinstaller/pykickstart/}\end{center}
+
+
+\end{frame}
+
+\begin{frame}{Credits}
+
+  This presentation has been created in LaTex using the mtheme.
+  \begin{center}\url{github.com/matze/mtheme}\end{center}
+
+
+  \begin{center}\ccbysa\end{center}
+
+\end{frame}
+
+\begin{frame}{Github Resource URL}
+
+  \begin{center}\url{github.com/digen/talks/fudcon2015}\end{center}
+  \begin{center}\ccbysa\end{center}
+
+\end{frame}
+
+
+
+\begin{frame}{Contact}
+\begin{itemize}
+\item Email : {swapneel@brainattic.in}
+\item Twitter : @digen\_
+\item IRC   : digen on Freenode
+\end{itemize}
+\end{frame}
+
+\plain{Thank you !}
+
+\end{document}
